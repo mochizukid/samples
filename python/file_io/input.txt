@@ -1,0 +1,5 @@
+This is a input file.
+Hello python!
+# skip this line
+# and this line
+Hoge hoge
