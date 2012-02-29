@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addressbook>
+    <address>
+        <name>Yamada Taro</name>
+        <email>taro@xxx.xxx</email>
+    </address>
+    <address>
+        <name>Yamada Hanako</name>
+        <email>hanako@xxx.xxx</email>
+    </address>
+</addressbook>
