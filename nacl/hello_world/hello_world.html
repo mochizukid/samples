@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HelloWorld!</title>
+
+  <script src="hello_world.js"></script>
+</head>
+<body onload="pageDidLoad()">
+
+<h1>Native Client Module HelloWorld</h1>
+<p>
+  <div id="listener">
+    <script type="text/javascript">
+      var listener = document.getElementById('listener');
+      listener.addEventListener('load', moduleDidLoad, true);
+      listener.addEventListener('message', handleMessage, true);
+    </script>
+
+    <embed name="nacl_module"
+       id="hello_world"
+       width=0 height=0
+       src="hello_world.nmf"
+       type="application/x-nacl" />
+  </div>
+</p>
+
+<h2>Status</h2>
+<div id="status_field">NO-STATUS</div>
+</body>
+</html>
